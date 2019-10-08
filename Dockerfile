@@ -8,4 +8,4 @@ RUN yum install -y devtoolset-2-gcc devtoolset-2-binutils devtoolset-2-gcc-c++
 RUN yum groupinstall -y 'Development Tools'
 RUN yum install -y readline-devel zlib-devel
 RUN yum install -y epel-release
-RUN yum install yum-utils
+RUN yum install -y yum-utils
